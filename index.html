@@ -1,0 +1,29 @@
+<html>
+
+<head>
+  <title>Web VR</title>
+  <script src="https://aframe.io/releases/1.4.0/aframe.min.js"></script>
+</head>
+
+<body>
+
+
+  <a-scene>
+    <!-- ground -->
+    <a-plane src="Images/groundmap.jpg" rotation="-90 0 0" height="50" width="50"></a-plane>
+    <a-box color="#f3f3f3"></a-box>
+    <a-entity camera look-controls wasd-controls="acceleration:100" position="0 1.6 0"></a-entity>
+  </a-scene>
+
+
+
+
+
+
+
+  <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+  <script src='https://unpkg.com/@turf/turf@6/turf.min.js'></script>
+  <script src="js/main.js"></script>
+</body>
+
+</html>
